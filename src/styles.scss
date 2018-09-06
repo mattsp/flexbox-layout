@@ -1,0 +1,25 @@
+html,
+body {
+  background-color: papayawhip;
+  font-family: sans-serif;
+
+  h1 {
+    color: tomato;
+  }
+
+  .thumbnails {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    .thumbnail {
+      width: 100%;
+      height: auto;
+      margin-bottom: 10px;
+      img {
+        width: 226px;
+        height: 126px;
+      }
+      flex: 1;
+    }
+  }
+}
